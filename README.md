@@ -1,8 +1,26 @@
-# **CPE 301 Final Project **
+# CPE 301 Final Project
 ## Hannah Haggerty and Alyssa Aragon
 
 #### Project Description
 The swamp cooler system is designed to manage temperature and water levels within the cooler. The system relies on different components that work together to achieve its cooling functionality. The swamp cooler functionalities are when the temperature surpasses a certain threshold, the fan activates, triggering the blue LED to illuminate. If there's enough water, the fan turns on and runs until the desired temperature is met. The red LED indicates low water levels, prompting an error message on the LCD. Additionally, the LCD displays temperature and humidity readings for the user.
 
 #### Components
-The center of the system is the Arduino microcontroller, which coordinates the operation of sensors and actuators. The DHT11 sensor monitors the temperature and humidity levels within the environment. It provides data to the microcontroller, allowing it to make decisions regarding cooling operations. The RTC module ensures timekeeping and enables scheduled tasks such as periodic temperature readings or status updates. The LCD display provides a user-friendly interface that presents information such as current temperature, humidity, and system status. LED lights offer visual cues about the system's operation, with each color representing a different state or condition. The states are disabled (yellow LED), idle (green LED), error (red LED), and running (blue LED). There are buttons which allow manual intervention, enabling users to override automatic control and adjust settings as needed. A fan is used to move air through the cooling system and promote evaporation. The fan is turned on when the temperature reading is too high. Another component is a water level sensor to monitor the water level in the swamp cooler. This sensor alerts the microcontroller when the water level falls below a threshold, preventing the system from operating without sufficient water. Lastly, the system includes a vent, which is controlled by a stepper motor. The stepper motor precisely adjusts the position of the vent, allowing the user to customize the airflow direction and intensity. Together, these components form a system for a swamp cooler.
+- **Arduino Microcontroller:** Coordinates the operation of sensors and actuators.
+- **DHT11 Sensor:** Monitors temperature and humidity levels.
+- **RTC Module:** Ensures timekeeping and enables scheduled tasks.
+- **LCD Display:** Provides a user-friendly interface for displaying information.
+- **LED Lights:** Offer visual cues about the system's operation, with each color representing a different state or condition.
+- **Buttons:** Allow manual intervention and adjustment of settings.
+- **Fan:** Moves air through the cooling system and promotes evaporation.
+- **Water Level Sensor:** Monitors the water level in the swamp cooler.
+- **Vent (Stepper Motor):** Adjusts the position of the vent to customize airflow direction and intensity.
+
+#### States
+- **Disabled:** Yellow LED indicates no monitoring of temperature or water levels.
+- **Idle:** Green LED indicates monitoring of temperature and water levels.
+- **Error:** Red LED indicates low water levels and prompts an error message.
+- **Running:** Blue LED indicates the fan is active and cooling the system.
+  
+#### Cooler Circuit Image
+
+#### Schematic Diagram
