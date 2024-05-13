@@ -21,7 +21,7 @@ The swamp cooler system is designed to manage temperature and water levels withi
 - **Running:** Blue LED indicates the fan is active and cooling the system.
   
 #### Cooler Circuit Image
-![5B36820F-0D8A-4047-9570-D2AD067656CE](https://github.com/HannahHaggerty/final/assets/113158997/8259a2bc-1d18-4e95-b450-7269de3bfca9)
+![5B36820F-0D8A-4047-9570-D2AD067656CE](https://github.com/HannahHaggerty/final/assets/113158997/afcdaacb-a6e5-4763-bfc8-d98e18a4f918)
 
 #### Schematic Diagram
 ![finalSchematic](https://github.com/HannahHaggerty/final/assets/113158997/b288a565-bb4e-4dae-b789-4a9a768fa23a)
