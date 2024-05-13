@@ -15,13 +15,7 @@
 
 //LCD length and pin num
 #define LENGTHlcd 16
-#define RS 12
-#define EN 11
-#define D4 6
-#define D5 5
-#define D6 4
-#define D7 3
-LiquidCrystal lcd(12, 11, 6, 6, 4, 3);
+LiquidCrystal lcd(12, 11, 6, 5, 4, 3);
 
 //Buttons
 #define START 0x08
