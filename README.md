@@ -1,4 +1,4 @@
-# CPE 301 Final Project
+![image](https://github.com/HannahHaggerty/final/assets/113158997/c832708a-c426-4a2d-a229-dd904f0dc746)# CPE 301 Final Project
 ## Hannah Haggerty and Alyssa Aragon
 
 #### Project Description
@@ -24,3 +24,5 @@ The swamp cooler system is designed to manage temperature and water levels withi
 #### Cooler Circuit Image
 
 #### Schematic Diagram
+![finalSchematic](https://github.com/HannahHaggerty/final/assets/113158997/b288a565-bb4e-4dae-b789-4a9a768fa23a)
+
